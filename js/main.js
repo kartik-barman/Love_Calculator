@@ -1,12 +1,14 @@
 let calculate = document.querySelector("#calculate-btn");
 let percentage = document.querySelector("#percentage");
-let heart = document.querySelector(".heart")
+let heart = document.querySelector(".heart");
+let yourName = document.querySelector(".input1").value;
+let crushName = document.querySelector("#input2").value;
 calculate.addEventListener("click", () => {
     let random = Math.floor(Math.random() * 100);
     console.log(`${random}%`);
     let p = document.createElement("p");
     percentage.innerHTML = `${random}%`;
-    heart.appendChild(p)
+    heart.appendChild(p);
     let yourName = document.querySelector(".input1").value;
     let crushName = document.querySelector("#input2").value;
     let yourNameText = document.querySelector("#your-name");

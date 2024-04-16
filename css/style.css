@@ -18,6 +18,8 @@
 .para p {
     text-align: center;
     font-size: 25px;
+    width: 80%;
+    margin: auto;
 }
 .heart{
     position: relative;
@@ -64,7 +66,8 @@
     padding: 10px 31px;
     border-radius: 20px;
     color: #fff;
-    background: crimson;
+    /* background: crimson; */
+    background: linear-gradient(210deg, red, orange);
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -88,6 +91,9 @@
     .heart img {
         width: 350px;
     }
+    .input1{
+        margin-top: 50px;
+    }
     #input2{
         margin-bottom: 20px;
     }
@@ -97,5 +103,8 @@
     }
     #your-name{
         top: 80px;
+    }
+    .button{
+        margin-bottom: 100px;
     }
   }
