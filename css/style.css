@@ -31,6 +31,10 @@
     left: 33%;
     font-size: 45px;
 }
+.text-field label{
+    display: inline-block;
+    text-align: center;
+}
 .text-field input{
     padding: 10px;
     box-shadow: 20px 20px 50px gray;
@@ -92,7 +96,7 @@
         width: 350px;
     }
     .input1{
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
     #input2{
         margin-bottom: 20px;

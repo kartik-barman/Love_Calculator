@@ -21,3 +21,21 @@ calculate.addEventListener("click", () => {
     heart.appendChild(p2);
     console.log(yourName);
 })
+
+// Disable right click context Menu
+document.addEventListener("contextmenu", (e)=>{
+    e.preventDefault();
+});
+
+// Disable Keyboard Shortcut Ctrl+u , ctrl+shift+i
+document.addEventListener("keydown", (e)=>{
+    if(e.ctrlKey && (e.key === "u" || e.key === "U" || e.key === "i" || e.key === "I")) {
+        e.preventDefault();
+    }
+});
+
+// Disable Text Selection
+
+document.addEventListener("selectstart", (e)=>{
+    e.preventDefault();
+});
